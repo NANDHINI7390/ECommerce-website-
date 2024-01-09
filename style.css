@@ -1,0 +1,8 @@
+.down-caret{
+  transform: rotate(0deg);
+  transition: transform 1s linear;
+}
+.down-caret.open{
+  transform: rotate(180deg);
+  transition: transform 1s linear;
+}
